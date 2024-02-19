@@ -22,4 +22,11 @@ def main():
     myWin = turtle.Screen()
     myWin.bgcolor("#263137")
     t.left(90)
-    
+    t.up()
+    t.backward(200)
+    t.down()
+    t.speed(10000000)
+    t.color("#fe5151")
+    tree(100,t)
+    myWin.exitonclick()
+main()
