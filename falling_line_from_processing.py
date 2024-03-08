@@ -1,4 +1,3 @@
-import math
 from processing_py import *
 
 
@@ -12,11 +11,11 @@ def draw():
   app.strokeWeight(3)
   for i in range(0, 280, 10):
     app.pushMatrix()
-    app.rotate(app.radians(i) * app.cos(app.radians(angle)))
-    app.line(200 * math.sin(math.radians(angle)), 0, 0, 200)
+    app.rotate(radians(i) * app.cos(app.radians(angle)))
+    app.line(200 * app.sin(app.radians(angle)), 0, 0, 200)
     app.popMatrix()
     app.redraw()
-  angle += 1
+    angle += 1
 
 
 while True:
