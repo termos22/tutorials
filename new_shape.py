@@ -1,11 +1,11 @@
 import turtle
 
 def draw_attractive_design2():
-    colors = ["red", "orange", "yellow", "green", "blue", "purple")
+    colors = ["red", "orange", "yellow", "green", "blue", "purple"]
     pen = turtle.Turtle()
     pen.speed(0)
     turtle.bgcolor("black")
-    pen.size(1)
+    pen.pensize(1)
     
     initial_size = 35
     
@@ -14,8 +14,7 @@ def draw_attractive_design2():
         pen.forward(initial_size + i)
         pen.left(59) 
     
-    pen.hideturtle(59)
+    pen.hideturtle()
     
 draw_attractive_design2()
-
-   turtle.done() 
+turtle.done() 
