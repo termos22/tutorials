@@ -20,3 +20,4 @@ def draw():
 
 while True:
   draw()
+
