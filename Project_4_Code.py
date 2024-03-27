@@ -19,7 +19,5 @@ while True:
         print(weather + "°C")
 
 
-    print("enter the city name")
-    city = input()
-    city = city + " weather"
+    city = input("enter the city name: ")
     weather(city)
